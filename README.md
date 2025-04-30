@@ -1,22 +1,22 @@
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/oDY7CZkD)
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/vl4jljH6)
+
 # 💻 Laboratorio 2: Mi Currículum Web
 
 ## Objetivo
 
-Basándose en el Laboratorio 1. El presente laboratorio tiene como objetivo profundizar al estudiante al desarrollo web usnado CSS, a través de la creacion una página web con el currículum vitae del estudiante.
+Basándose en el Laboratorio 1, el presente laboratorio tiene como objetivo profundizar en el desarrollo web usando CSS, a través de la creación de una página web con el currículum vitae del estudiante.
 
 ---
 
 ## 📁 Estructura del proyecto
 
 El proyecto debe contener al menos los siguientes archivos:
-
-/laboratorio-1/ <br>
-  ├── index.html <br>
-  ├── styles.css <br>
-  └── README.md <br>
-
+```
+/laboratorio-2/
+  ├── index.html
+  ├── styles.css
+  └── README.md
+```
 
 ---
 
@@ -33,9 +33,9 @@ Crear una página HTML que contenga:
 - Sección de **educación** y **experiencia laboral**
 - Enlaces a tus **redes sociales o correo electrónico** usando `<a href="...">`
 
-### 2. Estilos con CSS (estilos.css)
+### 2. Estilos con CSS (styles.css)
 
-Crear un archivo `estilos.css` y usa **clases (`class`)** para aplicar estilos como:
+Crear un archivo `styles.css` y usa **clases (`class`)** para aplicar estilos como:
 
 - Color de fondo
 - Color del texto
@@ -59,10 +59,8 @@ Crear un archivo `estilos.css` y usa **clases (`class`)** para aplicar estilos c
 En tu archivo `index.html`, dentro de la etiqueta `<head>`, enlaza el archivo de estilos:
 
 ```html
-<link rel="stylesheet" href="estilos.css">
+<link rel="stylesheet" href="styles.css">
 ```
-
-
 
 ## 💡 Sugerencia de estructura HTML
 
@@ -109,23 +107,23 @@ En tu archivo `index.html`, dentro de la etiqueta `<head>`, enlaza el archivo de
 }
 ```
 
-
 ## Entrega del laboratorio
-Clonar el repositorio (desde GitHub Classroom)
+
+### 1. Clonar el repositorio (desde GitHub Classroom)
 
 ```bash
 git clone <URL-del-repositorio>
 cd <nombre-del-repositorio>
 ```
 
-### 4. Configurar token de acceso (solo si es la primera vez)
-- Dirigirse a a: https://github.com/settings/tokens
-- Genera un token clásico con permisos para repositorios.
-- Guarda el token en un sitio seguro, ya que se lo necesitará para autenticarse al hacer push.
+### 2. Configurar token de acceso (solo si es la primera vez)
+- Dirigirse a: https://github.com/settings/tokens
+- Generar un token clásico con permisos para repositorios.
+- Guardar el token en un sitio seguro, ya que se lo necesitará para autenticarse al hacer push.
 
-### 5. ✅ Hacer commit y push de tus cambios
+### 3. ✅ Hacer commit y push de tus cambios
 ```bash
 git add .
-git commit -m "Laboratorio 1 terminado"
+git commit -m "Laboratorio 2 terminado"
 git push origin main
 ```
